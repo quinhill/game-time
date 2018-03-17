@@ -1,5 +1,36 @@
 #game {
   border: 1px solid; 
-  margin-left: 450px;
-  margin-top: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #000;
+  display: inline-block;
 }
+
+body {
+  background-image: url('../assets/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  color: orange;
+  font-size: 50px;
+  font-family: 'Rammetto One', cursive;
+  text-align: center;
+  margin: none;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.directions {
+  position: relative;
+  bottom: 430px;
+  display: inline-block;
+  color: orange;
+  font-family: 'Rammetto One', cursive;
+  text-align: center;
+  margin-left: 10px;
+}
+
