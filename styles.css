@@ -1,6 +1,6 @@
 #game {
   border: 1px solid; 
-  margin-left: 20px;
+  margin-left: 50px;
   margin-top: 10px;
   background-color: #000;
   display: inline-block;
@@ -17,7 +17,7 @@ h1 {
   font-size: 50px;
   font-family: 'Rammetto One', cursive;
   text-align: center;
-  margin: none;
+  margin-left: 88px;
 }
 
 h3 {
@@ -34,47 +34,47 @@ h3 {
   margin-left: 10px;
 }
 
-.dashboard,
-.dashboard-two,
-.dashboard-three {
+.dashboard {
   float: right;
+  position: relative;
 }
 
 .level-display,
 .balls-remaining,
 .reset-button,
-.score-number,
- .score-text {
+.score-number, 
+.score-text {
   color: orange;
   display: inline-block;
   font-family: 'Rammetto One', cursive;  font-size: 22px;
   margin: 0px 10px;
 }
 
-.score {
-  color: orange;
-  font-family: 'Rammetto One', cursive;
-  font-size: 22px;
-  margin: 0px 10px;
-}
-
-.reset-button {
+#reset-button {
+  border: 3px solid orange;
+  border-radius: 10px;
   background-color: white;
+  color: orange;
+  font-size: 20px;
+  font-family: 'Rammetto One', cursive;
   opacity: .7;
-
+  width: 200px;
+  height: 40px;
   margin-top: 20px;
 }
 
 .dashboard {
+  float: right;
+  align-items: left;
   margin-right: 150px;
+  font-size: 48px;
   position: relative;
   top: 10px;
 }
 
-.dashboard-two {
-  margin-right: 50px;
-}
-
-.level-display {
-  margin-left: 23px;
+.start-picture {
+  background-image: url('../assets/background.jpg');
+  width: 500px;
+  height: 600px;
+  z-index: 0;
 }

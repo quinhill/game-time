@@ -11,26 +11,25 @@
   <div class="directions">
     <h3>Directions</h3>
     <h4>Use the left and right arrow keys <br> to move the paddle back and fourth. Hit all <br> of the breaks to breakout! If you miss the <br> ball you lose a life, so try not to do that.</h4>
-    <button class="reset-button">Reset Game</button>
+    <button id="reset-button">Reset Game</button>
   </div>
-  <canvas 
-    id="game" 
-    width="500" 
-    height="600">
-  </canvas>
+  <!-- <div class="start-picture" id="start-picture"> -->
+    <canvas 
+      id="game" 
+      width="500" 
+      height="600">
+    </canvas>
     <section class="dashboard">
-      <article class="score">
+   
         <p class="score-text">Score:</p>
         <p class="score-number" id="score-number">0</p>
-      </article>
-      <article class="dashboard-two">
+        <br>
         <p class="balls-remaining">Balls:</p>
         <p class="balls-remaining" id="balls-number"></p>
-      </article>
-      <article class="dashboard-3">
+        <br>
         <p class="level-display">Level:</p>
         <p class="level-display" id="level-number"></p>
-      </article>
+
     </section>
   <script src="main.bundle.js"></script>
 </body>
