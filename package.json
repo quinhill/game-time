@@ -21,9 +21,9 @@
   "homepage": "https://github.com/turingschool-examples/game-time-starter-kit-FEm1#readme",
   "devDependencies": {
     "babel": "^6.5.2",
-    "babel-core": "^6.18.2",
+    "babel-core": "^6.26.3",
     "babel-loader": "^6.2.7",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "chai": "^3.5.0",
     "css-loader": "^0.26.0",
     "eslint": "^4.9.0",
