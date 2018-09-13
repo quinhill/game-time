@@ -28,11 +28,11 @@
     "css-loader": "^0.26.0",
     "eslint": "^4.9.0",
     "locus": "^2.0.1",
-    "mocha": "^3.1.2",
+    "mocha": "^5.2.0",
     "mocha-loader": "^1.0.0",
     "node-libs-browser": "^1.0.0",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-server": "^3.1.8"
   }
 }
