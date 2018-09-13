@@ -1,8 +1,21 @@
 # Game-Time
 
-Game-time is the game Breakout coded in JavaScript.
+Game-time is the game Breakout coded in JavaScript. This was a project at the Turing School of Software and Design. Game-Time served as an introduction to classes and Canvas in JavaScript. The challenge was figuring out the functionality of the app and designing it in around 10 days. 
 
-To try it out, clone down this repo, then run `npm install` and `npm start` to start up a local server on your machine. In your browser go to `localhost:8080`.
+## Installation
+
+Clone down this repo:
+`git clone `
+
+Go into the cloned repo `cd game-time`
+
+Run `npm install`
+
+Run `npm start`
+
+A local server on your machine should be hosted on `localhost:8080`. 
+
+In your browser go to `localhost:8080`.
 
 Enjoy!
 
